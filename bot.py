@@ -7,7 +7,7 @@ import youtube_dl
 from discord.ext import commands
 from discord.utils import get
 
-TOKEN = 'NjczNzg3MjUxMjg0NzcwODE3.XjfHXg.6wTuyiGUnMq29XivD9BNi7HYheE' #Insert discord token.
+TOKEN = '' #Insert discord token.
 client = commands.Bot(command_prefix = '!') #Uses exclamation mark as prefix for commands in discord can modify to be something else.
 
 players = {}
