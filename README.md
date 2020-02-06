@@ -1,3 +1,3 @@
 # music-bot
 
-basic discord music bot using python.
+basic discord music bot using python and discord.py.
