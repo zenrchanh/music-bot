@@ -15,7 +15,7 @@ players = {}
 #If running will notify when running if the is online. Use @bot.event to create own events.
 @client.event
 async def on_ready(): #Can modify this to change status of bots 'game' can put any text you want.
-    await client.change_presence(status=discord.Status.idle, activity=discord.Game('hell yeah peget'))
+    await client.change_presence(status=discord.Status.idle, activity=discord.Game(''))
     print('Discord bot online.')
 
 @client.command(pass_context=True) #HELP
